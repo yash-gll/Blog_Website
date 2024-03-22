@@ -22,7 +22,7 @@ import Comment from "./Schema/Comment.js";
 const server = express();
 let PORT = 3000;
 
-const PYTHON_SERVICE_URL = 'http://localhost:5000';
+const PYTHON_SERVICE_URL = 'https://blog-website-python.onrender.com';
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccountKey)
